@@ -99,7 +99,7 @@ export default function Hero() {
         {/* CTA */}
         <div className="animate-fade-in-up delay-700 mt-12">
           <a
-            href="https://racddl.com/form"
+            href="https://racddl.com/form/socialtank"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glow inline-block rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 px-10 py-4 font-[family-name:var(--font-display)] text-2xl tracking-wider text-ocean-950 transition-all hover:from-gold-400 hover:to-gold-500"

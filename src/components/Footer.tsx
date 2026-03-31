@@ -14,7 +14,7 @@ export default function Footer() {
             Register your team and pitch your social impact idea to the sharks.
           </p>
           <a
-            href="https://racddl.com/form"
+            href="https://racddl.com/form/socialtank"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glow mt-8 inline-block rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 px-10 py-4 font-[family-name:var(--font-display)] text-2xl tracking-wider text-ocean-950 transition-all hover:from-gold-400 hover:to-gold-500"
@@ -46,7 +46,7 @@ export default function Footer() {
           </a>
           <span className="h-3 w-px bg-ocean-700" />
           <a
-            href="https://racddl.com/form"
+            href="https://racddl.com/form/socialtank"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-slate-500 transition-colors hover:text-gold-500"
