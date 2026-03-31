@@ -55,7 +55,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://racddl.com/form"
+            href="https://racddl.com/form/socialtank"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 rounded-lg bg-gold-500 px-5 py-2.5 text-sm font-bold text-ocean-950 transition-all hover:bg-gold-400 hover:shadow-[0_0_20px_rgba(245,184,65,0.4)] active:scale-95"
@@ -106,7 +106,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://racddl.com/form"
+            href="https://racddl.com/form/socialtank"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 block rounded-lg bg-gold-500 px-4 py-3 text-center text-sm font-bold text-ocean-950 transition-all hover:bg-gold-400"
