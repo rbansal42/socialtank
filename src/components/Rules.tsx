@@ -6,7 +6,7 @@ const RULES = [
   {
     title: "Eligibility",
     content:
-      "The competition is open to all school students (classes 8-12). Each team must consist of 2-4 members from the same school. A school can send multiple teams.",
+      "The competition is open to all school students (classes 9-12). Each team must consist of 4 members from the same school. A school can send multiple teams.",
   },
   {
     title: "Pitch Format",
@@ -101,9 +101,6 @@ export default function Rules() {
           })}
         </div>
 
-        <p className="mt-6 text-center text-sm text-slate-500">
-          * Rules are subject to change. Final rules will be shared with registered teams.
-        </p>
       </div>
     </section>
   );

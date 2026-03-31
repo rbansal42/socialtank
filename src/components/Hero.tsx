@@ -107,7 +107,7 @@ export default function Hero() {
             REGISTER NOW
           </a>
           <p className="mt-3 text-sm text-slate-500">
-            Limited spots available
+            Registration deadline: 10th April
           </p>
         </div>
       </div>

@@ -1,33 +1,23 @@
 const TIMELINE = [
   {
-    time: "9:00 AM",
-    title: "Registration & Welcome",
-    description: "Check-in, welcome kits, and networking with fellow participants.",
+    date: "Now",
+    title: "Registrations Open",
+    description: "Register your team online before the deadline.",
   },
   {
-    time: "10:00 AM",
-    title: "Opening Ceremony",
-    description: "Inaugural address and introduction to the judges panel.",
+    date: "10th April",
+    title: "Registration Deadline",
+    description: "Last date to register your team for SocialTank.",
   },
   {
-    time: "11:00 AM",
-    title: "Pitch Rounds Begin",
-    description: "Teams present their social impact ideas to the sharks.",
+    date: "Post 10th April",
+    title: "Mentorship Sessions",
+    description: "Registered teams receive mentorship and guidance to refine their pitches.",
   },
   {
-    time: "1:00 PM",
-    title: "Lunch & Mentoring",
-    description: "Networking lunch with feedback sessions from industry mentors.",
-  },
-  {
-    time: "2:30 PM",
-    title: "Final Pitches",
-    description: "Top teams present refined pitches in the grand finale round.",
-  },
-  {
-    time: "4:00 PM",
-    title: "Awards & Closing",
-    description: "Prize distribution, closing remarks, and group photo.",
+    date: "17th April",
+    title: "Final Round (10 AM - 3 PM)",
+    description: "Teams present their social impact ideas to the sharks at Army Public School, Delhi Cantt.",
   },
 ];
 
@@ -78,7 +68,7 @@ export default function EventDetails() {
                 </svg>
               ),
               label: "Team Size",
-              value: "2-4 Members",
+              value: "4 Members",
             },
           ].map((card) => (
             <div
@@ -99,11 +89,8 @@ export default function EventDetails() {
         {/* Timeline */}
         <div className="mt-20">
           <h3 className="text-center font-[family-name:var(--font-display)] text-3xl tracking-wide text-white">
-            EVENT SCHEDULE
+            COMPETITION TIMELINE
           </h3>
-          <p className="mt-2 text-center text-sm text-slate-500">
-            * Schedule is tentative and subject to change
-          </p>
 
           <div className="relative mx-auto mt-12 max-w-2xl">
             {/* Vertical line */}
@@ -111,7 +98,7 @@ export default function EventDetails() {
 
             {TIMELINE.map((item, i) => (
               <div
-                key={item.time}
+                key={item.date}
                 className={`relative mb-10 flex items-start gap-6 sm:gap-0 ${
                   i % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse"
                 }`}
@@ -122,7 +109,7 @@ export default function EventDetails() {
                 {/* Content */}
                 <div className={`ml-12 sm:ml-0 sm:w-1/2 ${i % 2 === 0 ? "sm:pr-12 sm:text-right" : "sm:pl-12"}`}>
                   <span className="font-[family-name:var(--font-display)] text-lg tracking-wider text-gold-500">
-                    {item.time}
+                    {item.date}
                   </span>
                   <h4 className="mt-1 font-semibold text-white">{item.title}</h4>
                   <p className="mt-1 text-sm text-slate-400">{item.description}</p>
