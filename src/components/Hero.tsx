@@ -60,13 +60,18 @@ export default function Hero() {
 
         {/* Main title */}
         <h1 className="animate-fade-in-up delay-200 font-[family-name:var(--font-display)] leading-[0.9]">
-          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-white">
+          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-[#4DA8DA]">
             SOCIAL
           </span>
-          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-gradient-gold">
+          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-[#E8D882]">
             TANK
           </span>
         </h1>
+
+        {/* Club name */}
+        <p className="animate-fade-in-up delay-300 font-[family-name:var(--font-display)] text-sm tracking-[0.25em] text-slate-400 mt-2">
+          BY ROTARACT CLUB OF DELHI DYNAMIC LEADERS
+        </p>
 
         {/* Tagline */}
         <p className="animate-fade-in-up delay-400 mx-auto mt-6 max-w-2xl text-lg font-medium text-slate-300 sm:text-xl md:text-2xl">
