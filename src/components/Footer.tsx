@@ -24,35 +24,76 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-6 sm:flex-row">
-        <div className="flex items-center gap-3">
-          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center font-[family-name:var(--font-display)] text-ocean-950 text-lg">
-            ST
+      {/* Bottom section */}
+      <div className="mx-auto max-w-6xl px-6 py-10">
+        <div className="grid gap-8 sm:grid-cols-3">
+          {/* Brand */}
+          <div>
+            <div className="flex items-center gap-3">
+              <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center font-[family-name:var(--font-display)] text-ocean-950 text-lg font-bold">
+                ST
+              </div>
+              <span className="font-[family-name:var(--font-display)] text-lg text-white tracking-wide">
+                SOCIALTANK
+              </span>
+            </div>
+            <p className="mt-3 text-sm text-slate-500 leading-relaxed">
+              A social entrepreneurship simulation by Rotaract Club of Delhi Dynamic Leaders.
+            </p>
           </div>
-          <span className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} SocialTank &mdash; Rotaract Club of Delhi Dynamic Leaders
-          </span>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-[family-name:var(--font-display)] text-sm tracking-[0.2em] text-gold-500 mb-3">
+              CONTACT US
+            </h4>
+            <div className="space-y-2">
+              <a
+                href="mailto:rtrayushikashyap@gmail.com"
+                className="block text-sm text-slate-400 transition-colors hover:text-gold-500"
+              >
+                rtrayushikashyap@gmail.com
+              </a>
+              <a
+                href="mailto:rotaractclubofdynamicleaders@gmail.com"
+                className="block text-sm text-slate-400 transition-colors hover:text-gold-500"
+              >
+                rotaractclubofdynamicleaders@gmail.com
+              </a>
+            </div>
+          </div>
+
+          {/* Links */}
+          <div>
+            <h4 className="font-[family-name:var(--font-display)] text-sm tracking-[0.2em] text-gold-500 mb-3">
+              LINKS
+            </h4>
+            <div className="space-y-2">
+              <a
+                href="https://racddl.com/form/socialtank"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-sm text-slate-400 transition-colors hover:text-gold-500"
+              >
+                Register Now
+              </a>
+              <a
+                href="https://racddl.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-sm text-slate-400 transition-colors hover:text-gold-500"
+              >
+                racddl.com
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div className="flex items-center gap-4">
-          <a
-            href="https://racddl.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-slate-500 transition-colors hover:text-gold-500"
-          >
-            racddl.com
-          </a>
-          <span className="h-3 w-px bg-ocean-700" />
-          <a
-            href="https://racddl.com/form/socialtank"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-slate-500 transition-colors hover:text-gold-500"
-          >
-            Register
-          </a>
+        {/* Divider + copyright */}
+        <div className="mt-8 border-t border-ocean-700/30 pt-6 text-center">
+          <span className="text-xs text-slate-600">
+            &copy; {new Date().getFullYear()} SocialTank &mdash; Rotaract Club of Delhi Dynamic Leaders
+          </span>
         </div>
       </div>
     </footer>
