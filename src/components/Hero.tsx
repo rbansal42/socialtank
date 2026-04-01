@@ -60,10 +60,10 @@ export default function Hero() {
 
         {/* Main title */}
         <h1 className="animate-fade-in-up delay-200 font-[family-name:var(--font-display)] leading-[0.9]">
-          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-[#4DA8DA]">
+          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-[#5BADE4]">
             SOCIAL
           </span>
-          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-[#E8D882]">
+          <span className="block text-[clamp(4rem,15vw,12rem)] tracking-tight text-[#EDE4A6]">
             TANK
           </span>
         </h1>

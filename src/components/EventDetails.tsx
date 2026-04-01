@@ -68,7 +68,7 @@ export default function EventDetails() {
                 </svg>
               ),
               label: "Team Size",
-              value: "4 Members",
+              value: "2-4 Members",
             },
           ].map((card) => (
             <div
