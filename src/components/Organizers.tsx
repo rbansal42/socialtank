@@ -24,20 +24,13 @@ export default function Organizers() {
             </span>
             <div className="mt-5">
               <Image
-                src="/logo-ddl.webp"
+                src="/logo-ddl.png"
                 alt="Rotaract Club of Delhi Dynamic Leaders"
-                width={220}
-                height={100}
-                className="h-auto w-[220px] object-contain"
+                width={280}
+                height={140}
+                className="h-auto w-[280px] object-contain"
               />
             </div>
-            <h3 className="mt-5 font-[family-name:var(--font-display)] text-xl tracking-wide text-white">
-              ROTARACT CLUB OF
-            </h3>
-            <h3 className="font-[family-name:var(--font-display)] text-xl tracking-wide text-gradient-gold">
-              DELHI DYNAMIC LEADERS
-            </h3>
-            <p className="mt-2 text-sm text-slate-400">RI District 3011</p>
           </div>
 
           {/* Venue Partner — APS */}
