@@ -5,7 +5,7 @@ import { useState } from "react";
 const FAQS = [
   {
     q: "Who can participate in SocialTank?",
-    a: "SocialTank is open to all school students from classes 9-12. Teams of 4 members from the same school can register. There is no limit on the number of teams per school.",
+    a: "SocialTank is open to all school students from classes 9-12. Teams of 2-4 members from the same school can register. There is no limit on the number of teams per school.",
   },
   {
     q: "What kind of ideas can we pitch?",
