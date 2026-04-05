@@ -2,22 +2,17 @@ const TIMELINE = [
   {
     date: "Now",
     title: "Registrations Open",
-    description: "Register your team online before the deadline.",
+    description: "Register online before the deadline. Individuals and teams welcome.",
   },
   {
     date: "10th April",
     title: "Registration Deadline",
-    description: "Last date to register your team for SocialTank.",
-  },
-  {
-    date: "Post 10th April",
-    title: "Mentorship Sessions",
-    description: "Registered teams receive mentorship and guidance to refine their pitches.",
+    description: "Last date to register for SocialTank.",
   },
   {
     date: "17th April",
     title: "Final Round (10 AM - 3 PM)",
-    description: "Teams present their social impact ideas to the sharks at Army Public School, Delhi Cantt.",
+    description: "Participants present their social impact ideas to the sharks at Army Public School, Delhi Cantt.",
   },
 ];
 
@@ -68,7 +63,7 @@ export default function EventDetails() {
                 </svg>
               ),
               label: "Team Size",
-              value: "2-4 Members",
+              value: "1-4 Members",
             },
           ].map((card) => (
             <div

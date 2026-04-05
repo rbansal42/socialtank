@@ -5,7 +5,7 @@ import { useState } from "react";
 const FAQS = [
   {
     q: "Who can participate in SocialTank?",
-    a: "SocialTank is open to all school students from classes 9-12. Teams of 2-4 members from the same school can register. There is no limit on the number of teams per school.",
+    a: "SocialTank is open to all school students from classes 9-12. Individuals or teams of up to 4 members from the same school can register. Registration fee is ₹250 per individual. There is no limit on the number of teams per school.",
   },
   {
     q: "What kind of ideas can we pitch?",
@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: "Is there a registration fee?",
-    a: "Registration details will be shared on the registration form. Please visit the registration page for the latest information on fees and deadlines.",
+    a: "Yes, the registration fee is ₹250 per individual. For example, a team of 3 members would pay ₹750 in total. Payment is made via UPI during the registration process.",
   },
   {
     q: "What should our presentation include?",
