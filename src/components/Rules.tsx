@@ -6,7 +6,7 @@ const RULES = [
   {
     title: "Eligibility",
     content:
-      "The competition is open to all school students (classes 9-12). Each team must consist of 2-4 members from the same school. A school can send multiple teams.",
+      "The competition is open to all school students (classes 9-12). Individuals or teams of up to 4 members from the same school can participate. A school can send multiple teams.",
   },
   {
     title: "Pitch Format",
@@ -21,7 +21,7 @@ const RULES = [
   {
     title: "Submission Guidelines",
     content:
-      "Teams must register online before the deadline. A one-page summary of the idea must be submitted during registration. Final presentations should be in PDF or PPTX format.",
+      "Register online before the deadline. You will have 3 days after registration to submit your idea abstract. Final presentations should be in PDF or PPTX format.",
   },
   {
     title: "Code of Conduct",
