@@ -51,10 +51,10 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-        {/* INTERACT badge */}
+        {/* Badge */}
         <div className="animate-fade-in-up mb-6">
           <span className="inline-block rounded-full border border-gold-500/30 bg-gold-500/10 px-5 py-1.5 font-[family-name:var(--font-display)] text-sm tracking-[0.3em] text-gold-400">
-            INTERACT
+            PITCH · IMPACT · CHANGE
           </span>
         </div>
 
