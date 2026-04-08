@@ -6,7 +6,7 @@ const RULES = [
   {
     title: "Eligibility",
     content:
-      "The competition is open to all school students (classes 9-12). Individuals or teams of up to 4 members from the same school can participate. A school can send multiple teams.",
+      "The competition is open to all school students (classes 9-12). Individuals or teams of up to 5 members from the same school can participate. A school can send multiple teams.",
   },
   {
     title: "Pitch Format",

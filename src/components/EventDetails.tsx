@@ -5,7 +5,7 @@ const TIMELINE = [
     description: "Register online before the deadline. Individuals and teams welcome.",
   },
   {
-    date: "10th April",
+    date: "12th April",
     title: "Registration Deadline",
     description: "Last date to register for SocialTank.",
   },
@@ -63,7 +63,7 @@ export default function EventDetails() {
                 </svg>
               ),
               label: "Team Size",
-              value: "1-4 Members",
+              value: "1-5 Members",
             },
           ].map((card) => (
             <div
