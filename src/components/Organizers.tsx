@@ -10,47 +10,67 @@ export default function Organizers() {
             BROUGHT TO YOU BY
           </span>
           <h2 className="mt-2 font-[family-name:var(--font-display)] text-5xl tracking-tight text-white sm:text-6xl">
-            ORGANIZERS
+            PARTNERS
           </h2>
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-gold-500 to-gold-600" />
         </div>
 
-        {/* Two cards side by side */}
-        <div className="mt-14 grid gap-8 sm:grid-cols-2">
-          {/* Organized by — DDL */}
-          <div className="flex flex-col items-center rounded-2xl border border-gold-500/20 bg-ocean-900/50 px-8 py-10">
+        {/* First row — lead organizer */}
+        <div className="mt-14">
+          <div className="flex flex-col items-center rounded-3xl border border-gold-500/20 bg-ocean-900/50 px-8 py-12 sm:px-12">
             <span className="text-xs tracking-[0.2em] text-gold-500/70 uppercase">
               Organized by
             </span>
-            <div className="mt-5">
+            <div className="mt-6">
               <Image
                 src="/logo-ddl.png"
                 alt="Rotaract Club of Delhi Dynamic Leaders"
-                width={280}
-                height={140}
-                className="h-auto w-[280px] object-contain"
+                width={420}
+                height={210}
+                className="h-auto w-[280px] object-contain sm:w-[360px] lg:w-[420px]"
               />
             </div>
           </div>
+        </div>
 
-          {/* Venue Partner — APS */}
+        {/* Second row — partner logos */}
+        <div className="mt-8 grid gap-8 sm:grid-cols-2">
           <div className="flex flex-col items-center rounded-2xl border border-ocean-700/40 bg-ocean-900/30 px-8 py-10">
             <span className="text-xs tracking-[0.2em] text-slate-500 uppercase">
               Venue Partner
             </span>
-            <div className="mt-5">
+            <div className="mt-5 flex h-[130px] w-[240px] items-center justify-center">
               <Image
                 src="/logo-aps.webp"
                 alt="Army Public School, Delhi Cantt"
-                width={100}
+                width={180}
                 height={100}
-                className="h-[100px] w-auto object-contain"
+                className="max-h-[100px] w-auto object-contain"
               />
             </div>
             <h3 className="mt-5 font-[family-name:var(--font-display)] text-xl tracking-wide text-white">
               ARMY PUBLIC SCHOOL
             </h3>
             <p className="mt-1 text-sm text-slate-400">Delhi Cantonment</p>
+          </div>
+
+          <div className="flex flex-col items-center rounded-2xl border border-emerald-500/20 bg-ocean-900/30 px-8 py-10">
+            <span className="text-xs tracking-[0.2em] text-emerald-400/80 uppercase">
+              Impact Partner
+            </span>
+            <div className="mt-5 flex h-[130px] w-[240px] items-center justify-center">
+              <Image
+                src="/logo-greensizz.png"
+                alt="GreenSizz"
+                width={220}
+                height={95}
+                className="max-h-[95px] w-auto object-contain"
+              />
+            </div>
+            <h3 className="mt-5 font-[family-name:var(--font-display)] text-xl tracking-wide text-white">
+              GreenSizz
+            </h3>
+            <p className="mt-1 text-sm text-slate-400">Impact Partner</p>
           </div>
         </div>
       </div>
