@@ -54,14 +54,9 @@ export default function Navbar() {
               <span className="absolute bottom-0 left-1/2 h-[2px] w-0 -translate-x-1/2 bg-gold-500 transition-all duration-300 group-hover:w-3/4" />
             </a>
           ))}
-          <a
-            href="https://racddl.com/form/socialtank"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-4 rounded-lg bg-gold-500 px-5 py-2.5 text-sm font-bold text-ocean-950 transition-all hover:bg-gold-400 hover:shadow-[0_0_20px_rgba(245,184,65,0.4)] active:scale-95"
-          >
-            Register Now
-          </a>
+          <span className="ml-4 rounded-lg border border-rose-400/30 bg-rose-500/10 px-5 py-2.5 text-sm font-bold text-rose-200">
+            Registrations Closed
+          </span>
         </div>
 
         {/* Mobile hamburger */}
@@ -105,14 +100,9 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="https://racddl.com/form/socialtank"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 block rounded-lg bg-gold-500 px-4 py-3 text-center text-sm font-bold text-ocean-950 transition-all hover:bg-gold-400"
-          >
-            Register Now
-          </a>
+          <span className="mt-2 block rounded-lg border border-rose-400/30 bg-rose-500/10 px-4 py-3 text-center text-sm font-bold text-rose-200">
+            Registrations Closed
+          </span>
         </div>
       </div>
     </nav>
