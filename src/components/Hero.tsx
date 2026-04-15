@@ -103,16 +103,11 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="animate-fade-in-up delay-700 mt-12">
-          <a
-            href="https://racddl.com/form/socialtank"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-glow inline-block rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 px-10 py-4 font-[family-name:var(--font-display)] text-2xl tracking-wider text-ocean-950 transition-all hover:from-gold-400 hover:to-gold-500"
-          >
-            REGISTER NOW
-          </a>
-          <p className="mt-3 text-sm text-slate-500">
-            Registration deadline: 12th April
+          <div className="inline-flex rounded-xl border border-rose-400/30 bg-rose-500/10 px-10 py-4 font-[family-name:var(--font-display)] text-2xl tracking-wider text-rose-200">
+            REGISTRATIONS CLOSED
+          </div>
+          <p className="mt-3 text-sm text-slate-400">
+            Registrations closed on 10 April 2026. The event will take place on 17 April 2026.
           </p>
         </div>
       </div>
